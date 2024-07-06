@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body{
+            height: 100vh;
+            width: 100vw;
+            
+        }
+        .header{
+            color: white;
+        }
+        .main-div{
+            height: 50px;
+            width: 100%;
+            position:sticky;
+            background-color: transparent;
+            top:0;
+            
+        }
+        .left{
+            
+            float: left;
+            font-size:25px;
+            font-weight:bold ;
+            
+           
+        }
+        .right{
+            float:right !important;
+           font-size:25px;
+           font-weight:bold ;
+           
+           
+            
+        }
+        .img-container{
+            background-image: url("	https://www.w3schools.com/w3images/architect.jpg");
+            background-size: cover;
+            height: 700px;
+            width: 100vw;
+            position: relative;
+            top: 15px !important;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .flex-container{
+            height:100vh;
+            width:100vw;
+            display: flex;
+            gap: 5px;
+           
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            padding-top: 10px;
+        }
+        .item{
+            position:sticky;
+            height: 300px;
+            background-color: azure;
+            width: 350px;
+        }
+        
+        
+        .div-header{
+            background-color: black;
+            color: white;
+            width: 160px;
+            height: 30px;
+            margin-top: 0px !important;
+            font-size: 23px;
+
+        }
+        .flex-container2{
+            height: 500px;
+            width: 100vw;
+            display: flex;
+            gap: 4px;
+            justify-content: center;
+            margin-top: 4px;
+            padding: 4px;
+            margin-bottom: 0px;
+        }
+        .inside{
+            width: 355px;
+            background-color: none;
+            height: 300px;
+            margin-left: 4px;
+        }
+        .image{
+            width: 355px;
+            object-fit: cover;
+            height: 230px;
+            
+        }
+        button{
+            height: 50px;
+            width: 350px;
+            background-color: none;
+            background-color: #f1f1f1 ;
+            border: none;
+            font-size: 20px;
+            padding: 4px;
+        }
+        .input-tag{
+            height: 50px;
+            width: 100vw;
+            font-weight: 600;
+            border:2px solid #f1f1f1;
+        }
+        .button-color{
+            height:50px ;
+            width:160px ;
+            background-color:black;
+            color: white;
+            border: 2px solid;
+            font-size: 20px;
+           
+        }
+        .map-image{
+            height: 600px;
+            width: 100vw;
+            margin-top: 30px;
+            display: block;
+            margin-bottom: 40px;
+        }
+        .footer{
+            background-color: black;
+            padding: 10px;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            height: 40px;
+        }
+        h2{
+            font-size: 20px;
+            font-weight: 300;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        button:hover{
+            transition: all 0.5s;
+            background-color: black;
+            color: white;
+        }
+        .button-color:hover{
+            transition: all 0.4s;
+            background-color: gray;
+            color:white;
+        }
+        .bold{
+            background-color: black !important;
+            color: white;
+            width:50px ;
+            padding: 10px;
+            margin-right: 4px;
+        }
+        a{
+            width: 120px;
+            padding: 5px;
+        }
+        a:hover{
+            transition:all 0.5s;
+            background-color: black;
+            color: white;
+        }
+        .main-div{
+            position:sticky;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+    <div class="left">
+        <a href="">HOME</a>
+    </div>
+    <div class="right">
+        <a href="#projects-section">PROJRCTS</a>&nbsp;&nbsp; 
+        <a href="#about-section">ABOUT</a>&nbsp;&nbsp;
+        <a href="#contact-section">CONTACT</a>&nbsp;&nbsp;
+    </div>
+    </div>
+    <div class="img-container">
+        <h1 class="header"><b class="bold">BR</b>Architects</h1>
+    </div>  
+    <h1 id="projects-section">Projects</h1>
+    <div class="flex-container">
+        <div class="item">
+         <div class="bg-img1">
+        <h1 class="div-header">Summer house<h1>
+         </div>   
+        </div>
+        <div class="item">
+            <div class="bg-img2">
+                <h1 class="div-header">Brick House<h1>
+                 </div> 
+        </div>
+        <div class="item">
+            <div class="bg-img3">
+                <h1 class="div-header" >Renovated<h1>
+                 </div> 
+        </div>
+        <div class="item">
+            <div class="bg-img4">
+                <h1 class="div-header">Barn House<h1>
+                 </div> 
+        </div>
+        <div class="item">
+            <div class="bg-img5">
+                <h1 class="div-header" >Summer House<h1>
+                 </div> 
+        </div>
+        <div class="item">
+            <div class="bg-img6">
+                <h1  class="div-header">Brick House<h1>
+                 </div> 
+        </div>
+        <div class="item">
+            <div class="bg-img7">
+                <h1 class="div-header">Renovated<h1>
+                 </div> 
+        </div>
+        <div class="item">
+            <div class="bg-img8">
+                <h1 class="div-header">Barn House<h1>
+                 </div> 
+        </div>
+    </div>
+    <h1 id="about-section">about</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate laudantium, nemo corrupti maxime ratione distinctio hic labore, aut magni fuga ducimus perferendis fugiat. Distinctio natus vel numquam. Temporibus, alias mollitia?</p>
+     <div class="flex-container2">
+        <div class="inside">
+         <img class="image" src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+            <h1>John Doe</h1>
+            <h2 >CEO & Founder</h2>  
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>contact</button>
+        </div>
+        <div class="inside">
+            <img class="image" src="https://www.w3schools.com/w3images/team1.jpg" alt="">
+            <h1>Jane Doe</h1>
+            <h2>Architect</h2>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>contact</button>
+        </div>
+        <div class="inside">
+            <img class="image" src="https://www.w3schools.com/w3images/team3.jpg" alt="">
+            <h1 >Mike Ross</h1>
+            <h2 >Architect</h2>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>contact</button>
+        </div>
+        <div class="inside">
+            <img class="image" src="https://www.w3schools.com/w3images/team4.jpg" alt="">
+            <h1>Dan star </h1>
+             <h2>Architect</h2>  
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>contact</button>
+        </div>
+    </div>
+    <h1 id="contact-section">contact</h1>
+    <hr style="color: lightblue;">
+    <h3>Lets get in touch and talk about your next project.</h3>
+     <input class="input-tag" type="text" placeholder="NAME"> <br><br>
+     <input class="input-tag" type="email" placeholder="EMAIL" ><br><br>
+     <input class="input-tag"type="text" placeholder="SUBJECT" ><br><br>
+     <input class="input-tag"type="text" placeholder="CONTENT"> <br><br>
+     <button class="button-color">Send message</button>
+     <img class="map-image" src="https://www.w3schools.com/w3images/map.jpg" alt="">
+     <footer class="footer">Powered by w3.css</footer>
+    </body>
+</html>
